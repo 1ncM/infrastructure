@@ -1,1 +1,8 @@
 <h>Switches</h>
+
+<% @switches.each do |i| %>
+  <ul>
+  	<li><%= i.name %></li>
+  	<li><%= i.model %></li>
+  </ul>
+<% end %>

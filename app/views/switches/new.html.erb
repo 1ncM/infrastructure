@@ -1,0 +1,7 @@
+<p>NEW SWITCH</p>
+
+<%= form_with model: Switch.new do |f| %>
+	<%= f.text_field :name %>
+	<%= f.text_field :model %>
+	<%= f.submit "Create" %>
+<% end %>
